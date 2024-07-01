@@ -1,0 +1,13 @@
+Flask
+langchain
+langchain-mistralai
+langchain-pinecone
+langchain-community
+pinecone-client
+langchainhub
+python-dotenv
+pymongo
+pandas
+plotly
+flask-caching
+gunicorn
