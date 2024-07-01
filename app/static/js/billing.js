@@ -151,7 +151,7 @@ function renderProducts() {
 function renderCardOptions(cardOptions) {
     const cardOptionsContainer = document.getElementById('card-options');
     const cardOptionsContainer2 = document.getElementById('card-options-no');
-    cardOptionsContainer.innerHTML = '';
+    // cardOptionsContainer.innerHTML = '';
     cardOptions.forEach(card => {
         if(card.recommended==="yes"){
             const cardDiv = document.createElement('div');
