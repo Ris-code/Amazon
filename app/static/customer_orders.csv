@@ -19,7 +19,7 @@ Order ID,Product Name,Product Category,MRP,Price for Customer,Savings,Payment Me
 18,Bicycle,Sports & Outdoors,10502.25,8033.61,2468.64,Cash on Delivery,,,22-01-2024,January,https://example.com/bicycle_image,8033.61,0,0,0
 19,Smartphone,Electronics,15707.56,13125.18,2582.38,PhonePe,,,28-02-2024,February,https://example.com/smartphone_image,13125.18,0,0,0
 20,Board Game,Toys & Games,18310.99,14285.07,4025.92,PhonePe,,,25-09-2023,September,https://example.com/board_game_image,14285.07,0,0,0
-21,Blender,Home & Kitchen,4109.63,2304.48,1805.15,Amazon Pay Later,2304.48,1,17-09-2023,September,"https://m.media-amazon.com/images/I/71a3LXfkYbL._AC_UF894,1000_QL80_.jpg",2304.48,2304.48,0,0
+21,Blender,Home & Kitchen,4109.63,2304.48,1805.15,Amazon Pay Later,2304.48,1,17-09-2023,September,"https://m.media-amazon.com/images/I/71a3LXfkYbL._AC_UF894,1000_QL80_.jpg",0,2304.48,0,0
 22,Moisturizer,Beauty & Personal Care,19119.14,13987.96,5131.18,Amazon Pay Later,1165.66,12,14-07-2023,July,"https://m.media-amazon.com/images/I/61Ayr0wq8rL._AC_UF1000,1000_QL80_.jpg",3988,10000,398.67,478.23
 23,Hair Dryer,Beauty & Personal Care,12323.48,6554.9,5768.58,Net Banking,,,18-03-2024,March,https://example.com/hair_dryer_image,6554.9,0,0,0
 24,Organic Milk,Grocery,15663.52,9612.1,6051.42,Amazon Pay Later,801.01,12,5/6/2024,June,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjWLuhNVa8ffIEROeBBuUkPtpK1KbFgXV3fif_nozHuCgBqZ1Ay8zkVd--vFj-5fAx5BE&usqp=CAU,4305.1,5307,438.45,445.55
