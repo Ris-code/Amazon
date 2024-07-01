@@ -268,8 +268,40 @@ def order_confirmation(transaction_id: str):
     tuple: A tuple containing the order details and a confirmation message if the transaction ID is found.
     str: A message indicating that the order is not yet confirmed if the transaction ID is not found.
     """
-    user = st.session_state.user
-    orders = user['previous_orders']
+    orders = [
+        {
+          "Item Name": "Laptop",
+          "Cost": "Rs 50,000",
+          "Payment Method": "Credit Card",
+          "Additional Cost": "Rs 2",
+          "Cashback": "Rs 400",
+          "Transaction ID": "afc24751-917c-4b01-a55f-f1876441968a"
+        },
+        {
+          "Item Name": "Smartphone",
+          "Cost": "Rs 20,000",
+          "Payment Method": "Amazon Pay",
+          "Additional Cost": "Rs 0",
+          "Cashback": "Rs 1000",
+          "Transaction ID": "79dbadef-7ec6-4fa4-9d03-08f8eed9469d"
+        },
+        {
+          "Item Name": "Headphones",
+          "Cost": "Rs 5000",
+          "Payment Method": "Debit Card",
+          "Additional Cost": "Rs 100",
+          "Cashback": "Rs 200",
+          "Transaction ID": "8aa2c964-4dd6-4e06-9fa0-fc5218cade1c"
+        },
+        {
+          "Item Name": "Fitness Tracker",
+          "Cost": "Rs 3000",
+          "Payment Method": "UPI",
+          "Additional Cost": "Rs 0",
+          "Cashback": "Rs 150",
+          "Transaction ID": "e229b57f-d327-4ce0-9ee7-c6dbd4679553"
+        }
+    ]
 
     for order in orders:
         if order["Transaction ID"] == transaction_id:
