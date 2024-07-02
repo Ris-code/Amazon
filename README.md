@@ -24,7 +24,8 @@ Theme 4: Personalized Payment Experiences and Financial Management
 ## Final Round
 
 ### Working Prototype Video
-https://drive.google.com/file/d/1IF2K7t4Ihb6gMXOI5A8SOLgT5CRcFl3R/view
+
+https://github.com/Ris-code/Amazon/assets/95609173/e077763b-0fa2-4e40-838d-a75d6f3ebb76
 
 - [Presentation Link](https://drive.google.com/file/d/1Yctc4ETnXLcaqG7aar8SvhXUaLwMlP-z/view?usp=sharing) 
 - [Prototype Link](https://amazon-production-175b.up.railway.app/) 
