@@ -328,7 +328,7 @@ def financial_management(question: str):
     """
     llm = ChatMistralAI(model="mistral-large-latest")
 
-    data_path = os.path.join(os.path.dirname(__file__), '..', 'Automated Budgeting Solution', 'customer_orders.csv')
+    data_path = os.path.join(os.path.dirname(__file__), '..', 'app', 'static', 'customer_orders.csv')
     df = pd.read_csv(data_path)
 
     engine = create_engine("sqlite:///customer_orders.db")
