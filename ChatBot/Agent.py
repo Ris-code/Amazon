@@ -16,7 +16,7 @@ from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 
 store = {}
-
+os.environ["MISTRAL_API_KEY"] = "hCJb9fDCMoIbKXUazExq5bo37dorw17Q"
 # Initialize language model
 llm = ChatMistralAI(model="mistral-large-latest", streaming=True)
 
